@@ -1,12 +1,12 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "https://jsonplaceholder.typicode.com/";
+axios.defaults.baseURL = "http://localhost:3004/";
 
 const http = {
-	get: axios.get,
-	put: axios.put,
-	delete: axios.delete,
-	post: axios.post,
+    get: axios.get,
+    put: axios.put,
+    delete: axios.delete,
+    post: axios.post,
 };
 
 export default http;
