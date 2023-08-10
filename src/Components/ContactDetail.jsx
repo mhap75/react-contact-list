@@ -1,0 +1,5 @@
+export const ContactDetail = () => {
+    return (
+        <></>
+    )
+}
